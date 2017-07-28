@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wenlonghuo/webpack-css-replace/issues"
   },
-  "homepage": "https://github.com/wenlonghuo/webpack-css-replace#readme"
+  "homepage": "https://github.com/wenlonghuo/webpack-css-replace#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
 }
