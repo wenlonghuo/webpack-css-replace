@@ -1,0 +1,23 @@
+{
+  "name": "webpack-css-replace",
+  "version": "1.0.0",
+  "description": "webpack replace css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenlonghuo/webpack-css-replace.git"
+  },
+  "keywords": [
+    "css",
+    "replace"
+  ],
+  "author": "jsyaowenlong@126.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wenlonghuo/webpack-css-replace/issues"
+  },
+  "homepage": "https://github.com/wenlonghuo/webpack-css-replace#readme"
+}
