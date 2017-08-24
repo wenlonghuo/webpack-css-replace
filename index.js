@@ -2,7 +2,8 @@
 const loaderUtils = require('loader-utils')
 
 module.exports = function (source) {
-  const query = loaderUtils.parseQuery(this.query)
+  let option = loaderUtils.getOptions(this)
+  const query = option.params ? option.params : option
   let str = source
   Object.keys(query).forEach(key => {
     if (!query[key]) return
